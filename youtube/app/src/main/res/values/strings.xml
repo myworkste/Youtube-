@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AuraPlay</string>
+    <string name="default_url">https://m.youtube.com</string>
+
+    <!-- Top Bar -->
+    <string name="action_back">Back</string>
+    <string name="action_forward">Forward</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_home">Home</string>
+    <string name="action_settings">Settings</string>
+    <string name="ad_shield_status">AdShield Active</string>
+    <string name="low_data_mode">Low-Data Audio</string>
+
+    <!-- Settings Dialog -->
+    <string name="settings_title">Player Settings</string>
+    <string name="settings_url_label">Default Startup URL</string>
+    <string name="settings_url_hint">Enter URL (e.g. https://m.youtube.com)</string>
+    <string name="settings_presets_label">Quick Presets</string>
+    <string name="preset_yt_mobile">YouTube Mobile</string>
+    <string name="preset_yt_music">YouTube Music</string>
+    <string name="preset_soundcloud">SoundCloud</string>
+    <string name="preset_twitch">Twitch Web</string>
+    
+    <string name="settings_adblock_title">AdShield Content Blocker</string>
+    <string name="settings_adblock_desc">Strip video &amp; banner ads, popups, and tracking</string>
+    
+    <string name="settings_background_title">Background Audio Playback</string>
+    <string name="settings_background_desc">Keep audio playing when screen is locked or app minimized</string>
+    
+    <string name="settings_data_saver_title">Smart Low-Data Background Stream</string>
+    <string name="settings_data_saver_desc">Suspends video decoding in background to stream audio-only data</string>
+    
+    <string name="settings_clear_cache">Clear Browser Cache &amp; Cookies</string>
+    <string name="settings_save_apply">Save &amp; Apply</string>
+    <string name="settings_cache_cleared">Browser cache cleared successfully</string>
+    <string name="settings_saved">Settings updated</string>
+
+    <!-- Notification -->
+    <string name="notification_channel_name">AuraPlay Media Service</string>
+    <string name="notification_channel_desc">Shows background media playback controls and track info</string>
+    <string name="media_default_title">AuraPlay Media</string>
+    <string name="media_default_artist">Web Media Player</string>
+    <string name="media_action_play">Play</string>
+    <string name="media_action_pause">Pause</string>
+    <string name="media_action_next">Next / Seek Forward</string>
+    <string name="media_action_prev">Previous / Seek Back</string>
+    <string name="media_action_stop">Stop</string>
+    <string name="media_subtitle_audio_only">AuraPlay • Low-Data Audio Stream</string>
+
+    <!-- Permissions -->
+    <string name="notification_permission_title">Enable Media Controls</string>
+    <string name="notification_permission_message">AuraPlay needs notification permission to display Spotify-style media playback controls on your lockscreen.</string>
+    <string name="grant_permission">Allow</string>
+</resources>

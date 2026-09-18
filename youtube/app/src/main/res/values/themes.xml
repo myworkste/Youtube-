@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.AuraPlay" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/spotify_green</item>
+        <item name="colorPrimaryVariant">@color/spotify_green_dark</item>
+        <item name="colorOnPrimary">@color/bg_black</item>
+        
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">@color/spotify_green_light</item>
+        <item name="colorSecondaryVariant">@color/spotify_green_dark</item>
+        <item name="colorOnSecondary">@color/bg_black</item>
+        
+        <!-- Status bar and Navigation bar -->
+        <item name="android:statusBarColor">@color/bg_black</item>
+        <item name="android:navigationBarColor">@color/bg_black</item>
+        <item name="android:windowLightStatusBar">false</item>
+        
+        <!-- Backgrounds -->
+        <item name="android:windowBackground">@color/bg_black</item>
+        <item name="colorSurface">@color/bg_elevated</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+
+        <item name="bottomSheetDialogTheme">@style/CustomBottomSheetDialogTheme</item>
+    </style>
+
+    <style name="CustomBottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/CustomBottomSheetStyle</item>
+    </style>
+
+    <style name="CustomBottomSheetStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/bg_bottom_sheet</item>
+    </style>
+</resources>
